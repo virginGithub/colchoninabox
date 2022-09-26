@@ -33,7 +33,6 @@ H2 {
 }
 .header {
 	display: flex;
-	background-color: #FFBA08;
 	justify-content:space-around;
 	font-family: "Barlow";
 	font-size: medium;
@@ -49,9 +48,7 @@ H2 {
 	position: relative;
 	width: 150px;
 	}
-.header a:hover {
-	background-color:rgb(16, 138, 16);
-}
+
 .navbar-nav{
 	vertical-align: bottom;
 }

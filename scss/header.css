@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Barlow";
+  font-size: medium;
+  width: 100%;
+}
+
+.header li {
+  list-style-type: none;
+}
+
+.header a {
+  text-decoration: none;
+  color: #222;
+  font-size: 18px;
+  position: relative;
+  width: 150px;
+}
+
+.navbar-nav {
+  vertical-align: bottom;
+}/*# sourceMappingURL=header.css.map */
