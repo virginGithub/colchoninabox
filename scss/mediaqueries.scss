@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+    .footer {
+      font-size: 18px;
+      flex-direction: column;
+    }
+    body {
+      max-width: 100%;
+    }
+    .header {
+      display: block;
+    }
+    .caja {
+      width: auto;
+    }
+    .cajacontenido {
+      width: auto;
+    }
+    .iframe {
+      width: 360px;
+      height: auto;
+    }
+  }

@@ -8,6 +8,16 @@ body {
   font-size: 18px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s ease;
+}
+
 H1 {
   color: rgb(0, 4, 12);
   font-size: 28px;
@@ -33,6 +43,37 @@ H2 {
   padding-right: 15px;
 }
 
+.sectiongrid {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-items: center;
+}
+
+.item {
+  border: 20px solid black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.contenido {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  box-align: center;
+  float: left;
+  padding-left: 20px;
+  padding-bottom: 0px;
+}
+
 .caja {
   width: 800px;
   height: auto;
@@ -52,25 +93,6 @@ H2 {
   color: #000;
 }
 
-@media screen and (max-width: 768px) {
-  .footer {
-    font-size: 18px;
-    flex-direction: column;
-  }
-  body {
-    max-width: 100%;
-  }
-  .header {
-    display: block;
-  }
-  .caja {
-    width: auto;
-  }
-  .cajacontenido {
-    width: auto;
-  }
-  .iframe {
-    width: 360px;
-    height: auto;
-  }
+.card-img-top {
+  max-width: 200px;
 }/*# sourceMappingURL=generales.css.map */
