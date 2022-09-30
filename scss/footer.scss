@@ -8,8 +8,8 @@ footer {
     bottom: 0%;
     clear: both;
     width: 100%;
-    background-color: #FFF;
-    font-size: 14px;
+    background-color: $color-secundario;
+    font-size: map-get($font-sz , font-m);
   }
   
 footer p {

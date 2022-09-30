@@ -28,8 +28,8 @@ footer {
   bottom: 0%;
   clear: both;
   width: 100%;
-  background-color: #FFF;
-  font-size: 14px;
+  background-color: #fff;
+  font-size: 18px;
 }
 
 footer p {
@@ -59,7 +59,7 @@ a:hover {
 }
 
 H1 {
-  color: rgb(0, 4, 12);
+  color: #000;
   font-size: 28px;
   font-family: "Barlow", sans-serif;
   text-align: center;
@@ -126,7 +126,6 @@ H2 {
 }
 
 .col {
-  background-color: #f0f3e8;
   font-family: "Barlow";
   font-size: medium;
   color: #000;
@@ -136,6 +135,21 @@ H2 {
   max-width: 200px;
 }
 
+.boton, .boton-secundario, .boton-principal {
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.boton-principal {
+  color: red;
+  background-color: white;
+}
+
+.boton-secundario {
+  color: white;
+  background-color: red;
+}
+
 .navbar-nav {
   vertical-align: bottom;
 }
@@ -143,7 +157,7 @@ H2 {
 .nav-item {
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
-  color: black;
+  color: #000;
 }
 
 .nav-link {
@@ -152,7 +166,7 @@ H2 {
 
 .table {
   width: 100%;
-  border: 1px solid #000;
+  border: 1px solid black;
 }
 
 th, td {
@@ -189,8 +203,8 @@ footer {
   bottom: 0%;
   clear: both;
   width: 100%;
-  background-color: #FFF;
-  font-size: 14px;
+  background-color: #fff;
+  font-size: 18px;
 }
 
 footer p {
